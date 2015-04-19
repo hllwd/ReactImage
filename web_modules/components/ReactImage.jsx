@@ -12,11 +12,9 @@ var ReactImage = React.createClass({
         }, this).join(' ') + '/>'
 
         return (
-            <g dangerouslySetInnerHTML={{__html: html}}>
-            </g>
+            <g dangerouslySetInnerHTML={{__html: html}}></g>
         )
     }
 })
-
 
 module.exports = ReactImage
